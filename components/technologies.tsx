@@ -1,8 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { 
-  SiJavascript, SiTypescript, SiReact, SiNodedotjs, SiPython,
-  SiCplusplus, SiMysql, SiMongodb, SiGraphql,
-  SiDocker, SiKubernetes, SiAmazons3, SiGit, SiJenkins
+  SiJavascript, SiTypescript, SiReact, SiNodedotjs, SiPython, SiMysql,
+  SiDocker,SiGit, 
 } from 'react-icons/si'
 
 import { DiJava, DiRust } from "react-icons/di"
