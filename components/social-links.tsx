@@ -1,4 +1,4 @@
-import { Github, Linkedin,  } from 'lucide-react'
+import { Github, Linkedin, Download  } from 'lucide-react'
 import Link from "next/link"
 
 const socialLinks = [
@@ -6,11 +6,19 @@ const socialLinks = [
     icon: Github,
     href: "https://github.com/ZeyKra_",
     label: "GitHub",
+    size: "h-5 w-5"
   },
   {
     icon: Linkedin,
     href: "https://www.linkedin.com/in/adryan-cales-569460280/",
     label: "LinkedIn",
+    size: "h-5 w-5"
+  },
+  {
+    icon: Download,
+    href: "https://www.linkedin.com/in/adryan-cales-569460280/",
+    label: "Telechargement du cv",
+    size: "h-5 w-20"
   }
 ]
 
@@ -25,7 +33,7 @@ export function SocialLinks() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <link.icon className="h-5 w-5" />
+          <link.icon className={link.size} />
           <span className="sr-only">{link.label}</span>
         </Link>
       ))}
