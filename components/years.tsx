@@ -1,7 +1,9 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+
+/* La classe est toujours en cours de travaux */
 
 //Liste contenant les experiences
 const experiences = [
@@ -9,7 +11,7 @@ const experiences = [
         title: "Txek",
         description: "Une infrastructure client serveur pour le jeu de carte Txek avec Application de comptage.",
         technologies: ["React", "Next.js", "TensorFlow"],
-        position: "left-0"
+        position: "left-0 pr-5"
     },
     {
         title: "Lorem Ipsum",
@@ -59,22 +61,24 @@ export function Years() {
     }, [])
 
     return (
-        <section className="">
-            <div className="">
+        <section className="mx-autborder-red-600 border-2 ">
+            <div className="absolute left-1/2 w-6 h-full bg-green-500 -ml-3"></div>
+            <div className="p-0 border-purple-500 border-2">
                 {/* les bordures pour travailler avec le canva */
-                    experiences.map((experience, i) => (
-                        <div key={experience.title} className={`relative w-1/2 pt-10 pb-50 ${experience.position}`}>
+                    experiences.map((experience) => (
+                        <div key={experience.title} className={`relative w-1/2 pt-10 pb-50 ${experience.position} outline-dashed outline-amber-200`}>
                             <Card>
                                 <CardHeader>
                                     <CardTitle>{experience.title}</CardTitle>
                                     <CardDescription>{experience.description}</CardDescription>
                                 </CardHeader>
                             </Card>
+                            <span className="h-0 w-0 absolute top-[28px] z-[1] border-t-[15px] border-t-card-foreground border-b-[15px] border-b-transparent border-l-[15px] border-l-red-500 right-[5px]"></span>
                         </div>
                     ))
                 }
             </div>
-            <canvas ref={canvasRef} className="mx-auto border-blue-700 border-2" />
+            {/* <canvas ref={canvasRef} className="mx-auto border-blue-700 border-2" /> */}
         </section>
     )
 }
