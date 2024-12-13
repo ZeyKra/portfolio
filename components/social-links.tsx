@@ -4,7 +4,7 @@ import Link from "next/link"
 const socialLinks = [
   {
     icon: Github,
-    href: "https://github.com/ZeyKra_",
+    href: "https://github.com/ZeyKra",
     label: "GitHub",
     size: "h-5 w-5"
   },
@@ -16,7 +16,7 @@ const socialLinks = [
   },
   {
     icon: Download,
-    href: "https://www.linkedin.com/in/adryan-cales-569460280/",
+    href: "_blank",
     label: "Telechargement du cv",
     size: "h-5 w-20"
   }
