@@ -6,8 +6,8 @@ export default function EnterprisePage() {
           Mon entreprise
         </h1>
         <p className="text-lg text-muted-foreground">
-          Presentation de l'entreprise
-          Mon role dans l'entreprise
+          Presentation de l&apos;entreprise
+          Mon role dans l&apos;entreprise
           Compétences developpés
 
           Magna fugiat ullamco do dolor pariatur aute nisi velit adipisicing cupidatat. Est enim sit ad nostrud do nulla consectetur do dolore ullamco proident non fugiat. Incididunt occaecat non cupidatat sunt. Labore commodo ipsum et minim sint esse incididunt id.
