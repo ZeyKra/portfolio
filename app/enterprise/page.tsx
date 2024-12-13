@@ -6,6 +6,10 @@ export default function EnterprisePage() {
           Mon entreprise
         </h1>
         <p className="text-lg text-muted-foreground">
+          Presentation de l'entreprise
+          Mon role dans l'entreprise
+          Compétences developpés
+
           Magna fugiat ullamco do dolor pariatur aute nisi velit adipisicing cupidatat. Est enim sit ad nostrud do nulla consectetur do dolore ullamco proident non fugiat. Incididunt occaecat non cupidatat sunt. Labore commodo ipsum et minim sint esse incididunt id.
 
           Officia est do sunt nisi ullamco est elit ullamco anim esse mollit ea. Nisi ad sit irure veniam irure nisi est tempor reprehenderit nisi amet. Et velit cillum magna exercitation eiusmod nisi commodo. Ad nulla aliqua amet ea. Dolor laborum amet elit occaecat. Duis enim cillum et quis ad elit minim enim esse qui veniam pariatur nisi.

@@ -1,3 +1,5 @@
+import { Years } from "@/components/years"
+
 export default function ResumePage() {
   return (
     <main className="min-h-screen bg-background p-8 pt-20 transition-colors">
@@ -8,6 +10,7 @@ export default function ResumePage() {
         <p className="text-lg text-muted-foreground">
           Laborum cupidatat elit nulla eiusmod ex occaecat do est.
         </p>
+        <Years/>
         {/* Add more content for your CV here */}
       </div>
     </main>
