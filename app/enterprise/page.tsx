@@ -58,7 +58,7 @@ export default function EnterprisePage() {
               </CardHeader>
               <CardContent>
                 <ul className="list-disc list-inside space-y-2">
-                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores unde inventore minima vel sequi. Eaque tempore in deleniti labore, nostrum doloremque nisi dolores a maxime magni aliquid numquam architecto culpa?</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores unde inventore minima vel sequi. Eaque tempore in deleniti labore, nostrum doloremque nisi dolores a maxime magni aliquid numquam architecto culpa</li>
                 </ul>
               </CardContent>
             </Card>
