@@ -20,6 +20,11 @@ export function Navbar() {
             CV
           </Link>
         </li>
+        <li>
+          <Link href="/veille" className="text-sm font-medium hover:text-primary">
+            Veille
+          </Link>
+        </li>
       </ul>
       <ThemeToggle />
     </nav>
