@@ -16,7 +16,7 @@ export default function EnterprisePage() {
           </div>
           <div className="relative aspect-video overflow-hidden rounded-lg">
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/facade.jpg?height=400&width=600"
               alt="Enterprise logo or relevant image"
               layout="fill"
               objectFit="cover"
