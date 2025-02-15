@@ -6,19 +6,22 @@ const socialLinks = [
     icon: Github,
     href: "https://github.com/ZeyKra",
     label: "GitHub",
-    size: "h-5 w-5"
+    size: "h-5 w-5",
+    showText: true
   },
   {
     icon: Linkedin,
     href: "https://www.linkedin.com/in/adryan-cales-569460280/",
     label: "LinkedIn",
-    size: "h-5 w-5"
+    size: "h-5 w-5",
+    showText: true
   },
   {
     icon: Download,
     href: "_blank",
-    label: "Telechargement du cv",
-    size: "h-5 w-20"
+    label: "Telecharger mon cv",
+    size: "h-5 w-5",
+    showText: true
   }
 ]
 
@@ -29,12 +32,16 @@ export function SocialLinks() {
         <Link
           key={link.label}
           href={link.href}
-          className="rounded-lg bg-muted p-2.5 transition-colors hover:bg-muted/80"
+          className="rounded-lg bg-muted p-2.5 transition-colors hover:bg-muted/80 flex items-center gap-2"
           target="_blank"
           rel="noopener noreferrer"
         >
           <link.icon className={link.size} />
-          <span className="sr-only">{link.label}</span>
+          {link.showText ? (
+            <span className="text-sm font-medium">{link.label}</span>
+          ) : (
+            <span className="sr-only">{link.label}</span>
+          )}
         </Link>
       ))}
     </div>
