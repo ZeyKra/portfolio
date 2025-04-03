@@ -4,37 +4,37 @@ const VeillePosts = [
   {
     title: "Lorem ipsum dolor",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
     link: "https://example.com/ai-web-dev",
   },
   {
     title: "Lorem ipsum dolor",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
     link: "https://example.com/ai-web-dev",
   },
   {
     title: "Lorem ipsum dolor",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
     link: "https://example.com/ai-web-dev",
   },
   {
     title: "Lorem ipsum dolor",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
     link: "https://example.com/ai-web-dev",
   },
   {
     title: "Lorem ipsum dolor",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
     link: "https://example.com/ai-web-dev",
   },
   {
     title: "Lorem ipsum dolor",
     description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
     link: "https://example.com/ai-web-dev",
   },
 ]

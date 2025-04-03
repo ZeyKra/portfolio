@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { NextConfig} from 'next'
 
 export default function EnterprisePage() {
   return (
@@ -16,7 +17,7 @@ export default function EnterprisePage() {
           </div>
           <div className="relative aspect-video overflow-hidden rounded-lg">
             <Image
-              src="/facade.jpg?height=400&width=600"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/facade.jpg?height=400&width=600`}
               alt="Enterprise logo or relevant image"
               layout="fill"
               objectFit="cover"
