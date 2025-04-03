@@ -7,7 +7,7 @@ export function Navbar() {
       <ul className="flex space-x-4">
         <li>
           <Link href="/" className="text-sm font-medium hover:text-primary">
-            Acceuil
+            Accueil
           </Link>
         </li>
         <li>
@@ -23,6 +23,11 @@ export function Navbar() {
         <li>
           <Link href="/veille" className="text-sm font-medium hover:text-primary">
             Veille
+          </Link>
+        </li>
+        <li>
+          <Link href="/projects" className="text-sm font-medium hover:text-primary">
+            Projets
           </Link>
         </li>
       </ul>

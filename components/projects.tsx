@@ -1,22 +1,28 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import Link from "next/link"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
 
 const projects = [
   {
-    title: "Txek",
-    description: "Une infrastructure client serveur pour le jeu de carte Txek avec Application de comptage.",
-    technologies: ["React", "Next.js", "TensorFlow"],
+    id: "txek-app",
+    title: "Txek App",
+    description: "Une application mobile de comptage de Point du jeu Txek pour les étudiants de l'UTBM.",
+    technologies: ["React-Native", "Expo"],
   },
   {
-    title: "Lorem Ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quia non facilis accusamus quam libero .",
-    technologies: ["Lorem", "Ipsum", "Dolore"],
+    id: "txek-api",
+    title: "Txek Api",
+    description: "Une api pour l'application de comptage de Point du jeu Txek avec une base de donnés SurrealDB.",
+    technologies: ["Next.js", "SurrealDB"],
   },
   {
-    title: "Lorem Ipsum",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quia non facilis accusamus quam libero .",
-    technologies: ["Lorem", "Ipsum", "Dolore"],
-  }
+    id: "txek-admin",
+    title: "Txek Admin",
+    description: "Une interface d'administration pour gérer la base de données de l'api Txek.",
+    technologies: ["Next.js", "React", "Typescript"],
+  },
 ]
 
 export function Projects() {
@@ -25,12 +31,12 @@ export function Projects() {
       <h2 className="font-feather text-3xl font-bold">Mes Projets</h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
-          <Card key={project.title}>
+          <Card key={project.id} className="flex flex-col">
             <CardHeader>
               <CardTitle>{project.title}</CardTitle>
               <CardDescription>{project.description}</CardDescription>
             </CardHeader>
-            <CardContent>
+            <CardContent className="flex-grow">
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech) => (
                   <Badge key={tech} variant="secondary">
@@ -39,6 +45,13 @@ export function Projects() {
                 ))}
               </div>
             </CardContent>
+            <CardFooter className="flex justify-end">
+              <Button variant="ghost" size="sm" asChild>
+                <Link href={`/projects#${project.id}`}>
+                  Voir Plus <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </CardFooter>
           </Card>
         ))}
       </div>
