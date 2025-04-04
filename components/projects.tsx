@@ -8,7 +8,7 @@ const projects = [
   {
     id: "txek-app",
     title: "Txek App",
-    description: "Une application mobile de comptage de Point du jeu Txek pour les étudiants de l'UTBM.",
+    description: "Une application mobile de comptage de Point du jeu Txek",
     technologies: ["React-Native", "Expo"],
   },
   {

@@ -14,7 +14,7 @@ export default function Home() {
               Adryan Xls
             </h1>
             <p className="text-lg text-muted-foreground">
-              déterminé à transformer des idées en solutions innovantes
+              Déterminé à transformer des idées en solutions innovantes
             </p>
             <SocialLinks />
           </div>
