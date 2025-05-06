@@ -13,9 +13,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Portfolio Adryan XLS</title>
-        <meta name="description" content="A brief description of the page content." />
-        <meta name="keywords" content="bts sio, bts, sio, adryan, campuslandes, developpeur" />
+        <title>Portfolio Adryan Cales</title>
+        <meta name="description" content="Portfolio Adryan Cales" />
+        <meta name="keywords" content="bts sio, bts, sio, adryan, cales, adryan cales, campuslandes, developpeur" />
         <link
           href="https://api.fontshare.com/v2/css?f[]=feather@700&display=swap"
           rel="stylesheet"

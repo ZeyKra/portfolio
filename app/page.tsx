@@ -11,7 +11,7 @@ export default function Home() {
         <div className="grid gap-12 md:grid-cols-2 md:items-center md:gap-8">
           <div className="space-y-6">
             <h1 className="font-feather text-4xl font-bold tracking-tight md:text-6xl">
-              Adryan Xls
+              Adryan Cales
             </h1>
             <p className="text-lg text-muted-foreground">
               Déterminé à transformer des idées en solutions innovantes

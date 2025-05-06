@@ -6,7 +6,7 @@ const projects: ProjectDetailProps[] = [
     title: "Txek App",
     description: "Application mobile pour compter les points du jeu de cartes Txek avec des fonctionnalités de statistiques et de suivi des joueurs.",
     longDescription:
-      "Ce projet est une application mobile pour compter les points du jeu de cartes Txek. Elle permet aux utilisateurs d'enregistrer leurs historiques de parties lorsque ceux-ci sont connectés . Elle est construite avec React-Native et Expo.",
+      "Ce projet est une application mobile pour compter les points du jeu de cartes Txek. Elle permet aux utilisateurs d'enregistrer leurs historiques de parties lorsque ceux-ci sont connectés. Elle est construite avec React-Native et Expo.",
     imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=300&width=600`,
     technologies: ["React-Native", "Expo"],
     githubUrl: "https://github.com/ZeyKra/Txek-app",

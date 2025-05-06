@@ -67,7 +67,7 @@ export function ProjectDetail({
           <Button variant="outline" asChild>
             <Link href={githubUrl} target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-4 w-4" />
-              View Code
+              Code Source
             </Link>
           </Button>
         )}
