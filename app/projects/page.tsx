@@ -7,7 +7,7 @@ const projects: ProjectDetailProps[] = [
     description: "Application mobile pour compter les points du jeu de cartes Txek avec des fonctionnalités de statistiques et de suivi des joueurs.",
     longDescription:
       "Ce projet est une application mobile pour compter les points du jeu de cartes Txek. Elle permet aux utilisateurs d'enregistrer leurs historiques de parties lorsque ceux-ci sont connectés. Elle est construite avec React-Native et Expo.",
-    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=300&width=600`,
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/txek_card.png?height=300&width=600`,
     technologies: ["React-Native", "Expo"],
     githubUrl: "https://github.com/ZeyKra/Txek-app",
     features: [
@@ -40,7 +40,7 @@ const projects: ProjectDetailProps[] = [
       "Ce projet est une interface d'administration pour l'api ainsi que la base de donnée. Elle permet aux administrateurs de gérer les utilisateurs, les projets et les tâches. Elle est construite avec Next.js et utilise la base de donnée SurrealDB. ",
     imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=300&width=600`,
     technologies: ["Next.js", "Typescript", "shadcn/ui"],
-    githubUrl: "https://github.com/ZeyKra/",
+    githubUrl: "https://github.com/ZeyKra/txek-admin",
     features: [
       "Interface d'administration pour l'api",
       "Interface d'administration pour la base de donnée",
