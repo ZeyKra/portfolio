@@ -30,6 +30,11 @@ export function Navbar() {
             Projets
           </Link>
         </li>
+        <li>
+          <Link href="/e5" className="text-sm font-medium hover:text-primary">
+            Epreuve E5
+          </Link>
+        </li>
       </ul>
       <ThemeToggle />
     </nav>

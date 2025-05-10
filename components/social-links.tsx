@@ -18,10 +18,11 @@ const socialLinks = [
   },
   {
     icon: Download,
-    href: "_blank",
+    href: "/cv.pdf", // Chemin vers le fichier CV dans le dossier public
     label: "Telecharger mon cv",
     size: "h-5 w-5",
-    showText: true
+    showText: true,
+    download: true // Ajouter l'attribut download
   }
 ]
 
@@ -35,6 +36,7 @@ export function SocialLinks() {
           className="rounded-lg bg-muted p-2.5 transition-colors hover:bg-muted/80 flex items-center gap-2"
           target="_blank"
           rel="noopener noreferrer"
+          download={link.download} // Ajouter l'attribut download conditionnellement
         >
           <link.icon className={link.size} />
           {link.showText ? (
