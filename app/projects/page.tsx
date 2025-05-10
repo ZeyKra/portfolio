@@ -23,7 +23,7 @@ const projects: ProjectDetailProps[] = [
     description: "Api rest pour l'application de comptage de Point du jeu Txek avec une base de donnés SurrealDB.",
     longDescription:
       "Ce projet est une api pour l'application de comptage de Point du jeu Txek avec une base de donnée SurrealDB. Elle permet aux utilisateurs de créer des comptes, de créer des projets, de créer des tâches et de les gérer. Elle est construite avec Next.js et utilise la base de donnée SurrealDB. ",
-    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=300&width=600`,
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/txek_api_card.png?height=300&width=600`,
     technologies: ["Next.js", "Typescript", "SurrealDB"],
     githubUrl: "https://github.com/ZeyKra/Txek-api",
     features: [
@@ -38,7 +38,7 @@ const projects: ProjectDetailProps[] = [
     description: "Interface d'administration pour l'api ainsi que la base de donnée.",
     longDescription:
       "Ce projet est une interface d'administration pour l'api ainsi que la base de donnée. Elle permet aux administrateurs de gérer les utilisateurs, les projets et les tâches. Elle est construite avec Next.js et utilise la base de donnée SurrealDB. ",
-    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=300&width=600`,
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/txek_admin_dashboard.png?height=300&width=600`,
     technologies: ["Next.js", "Typescript", "shadcn/ui"],
     githubUrl: "https://github.com/ZeyKra/txek-admin",
     features: [
