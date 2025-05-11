@@ -2,41 +2,23 @@ import { VeilleCard } from "@/components/veille-card"
 
 const VeillePosts = [
   {
-    title: "Lorem ipsum dolor",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
-    link: "https://example.com/ai-web-dev",
+    title: "Feedly",
+    description:"Suivi des dernières actualités, tendances, innovations et analyses dans le domaine de ia, à travers des sources fiables et spécialisées.",
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/feedly.jpg?height=200&width=300`,
+    link: "https://feedly.com/",
   },
   {
-    title: "Lorem ipsum dolor",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
-    link: "https://example.com/ai-web-dev",
+    title: "Youtube",
+    description:"Suivis des mise a jour de frameworks, langages, outils et technologies en IA, graces aux chaines comme Fireship, Th3eo, ThePrimeTime",
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/youtube.jpg?height=200&width=300`,
+    link: "https://www.youtube.com/",
   },
   {
-    title: "Lorem ipsum dolor",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
-    link: "https://example.com/ai-web-dev",
-  },
-  {
-    title: "Lorem ipsum dolor",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
-    link: "https://example.com/ai-web-dev",
-  },
-  {
-    title: "Lorem ipsum dolor",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
-    link: "https://example.com/ai-web-dev",
-  },
-  {
-    title: "Lorem ipsum dolor",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, eos quae laborum, soluta ea reiciendis, excepturi voluptatibus quo dolores quam voluptates. Ea ipsa pariatur voluptatum omnis est animi dolor!",
-    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/placeholder.svg?height=200&width=300`,
-    link: "https://example.com/ai-web-dev",
-  },
+    title: "Twitter/X",
+    description:"Suivi des dernières actualités, de certaines technologies, des nouveau repo github a partir de comptes tels que @ThePrimeTime, @GithubProjects",
+    imageUrl: `${process.env.NEXT_PUBLIC_BASE_PATH}/x.png?height=200&width=300`,
+    link: "https://x.com/",
+  }
 ]
 
 export default function VeillePage() {

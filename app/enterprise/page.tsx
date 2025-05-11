@@ -44,21 +44,27 @@ export default function EnterprisePage() {
           <div className="grid gap-6 md:grid-cols-2">
             <Card>
               <CardHeader>
-                <CardTitle>Alternant Informatique</CardTitle>
+                <CardTitle>Mes missions</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="list-disc list-inside space-y-2">
-                  <li>lorem</li>
+                  <li>Suivi des évolutions technologiques (matériels, logiciels, téléphonie IP).</li>
+                  <li>Bonnes pratiques en support utilisateur et maintenance informatique</li>
+                  <li>Sécurité, gestion des droits, sauvegardes, boîtes mail</li>
+                  <li>Travail en équipe, autonomie, curiosité, anglais technique</li>
                 </ul>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Mes missions</CardTitle>
+                <CardTitle>Compétences travaillées</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="list-disc list-inside space-y-2">
-                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores unde inventore minima vel sequi. Eaque tempore in deleniti labore, nostrum doloremque nisi dolores a maxime magni aliquid numquam architecto culpa</li>
+                  <li>Autonome & esprit d'équipe</li>
+                  <li>Méthodique & observateur</li>
+                  <li>Mobile pour interventions sur site</li>
+                  <li>Maîtrise Windows (poste & serveur)</li>
                 </ul>
               </CardContent>
             </Card>
