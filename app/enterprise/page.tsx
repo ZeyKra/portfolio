@@ -61,7 +61,7 @@ export default function EnterprisePage() {
               </CardHeader>
               <CardContent>
                 <ul className="list-disc list-inside space-y-2">
-                  <li>Autonome & esprit d'équipe</li>
+                  <li>Autonome & esprit d&apos;équipe</li>
                   <li>Méthodique & observateur</li>
                   <li>Mobile pour interventions sur site</li>
                   <li>Maîtrise Windows (poste & serveur)</li>
