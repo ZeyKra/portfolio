@@ -18,7 +18,7 @@ const socialLinks = [
   },
   {
     icon: Download,
-    href: `/cv.pdf`, // Chemin vers le fichier CV dans le dossier public
+    href: `cv.pdf`, // Chemin vers le fichier CV dans le dossier public
     label: "Telecharger mon cv",
     size: "h-5 w-5",
     showText: true,
