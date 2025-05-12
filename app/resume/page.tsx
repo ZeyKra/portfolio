@@ -28,12 +28,6 @@ export default function CVPage() {
           </ul>
         </section>
 
-        <section>
-          <h2 className="font-feather text-2xl font-bold mb-6">Certifications</h2>
-          <ul className="list-disc list-inside space-y-2">
-            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, repudiandae eaque impedit ea maxime necessitatibus tempore ipsam rerum quae nam vitae perferendis numquam, dicta adipisci! Numquam tempore dolorem laudantium magnam.</li>
-          </ul>
-        </section>
       </div>
     </main>
   )
