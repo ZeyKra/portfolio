@@ -9,7 +9,8 @@ export default function CVPage() {
             Mon CV
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Vue global de mon parcour scolaire et professionel
+            Vue rapide de mon parcour scolaire et mes compétences<br/>
+            Le cv complet peut être téléchargé depuis l&apos;accueil
           </p>
         </div>
         
