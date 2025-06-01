@@ -1,5 +1,23 @@
 import { PDFViewer } from "@/components/pdf-viewer"
 
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Document E5 | Portfolio BTS SIO SLAM",
+  description:
+    "Document E5 du BTS SIO SLAM présentant les situations professionnelles réalisées en entreprise et les compétences acquises.",
+  keywords: [
+    "BTS SIO",
+    "SLAM",
+    "document E5",
+    "portfolio",
+    "situations professionnelles",
+    "compétences",
+    "alternance",
+  ],
+}
+
+
 export default function E6Page() {
   // Replace this with the actual path to your PDF file
   const pdfUrl = `${process.env.NEXT_PUBLIC_BASE_PATH}/e5.pdf`

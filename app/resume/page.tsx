@@ -1,4 +1,29 @@
 import { CVTimeline } from "@/components/cv-timeline"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Mon CV | Parcour",
+  description:
+    "Découvrez mon CV détaillant mon parcours professionnel, mes compétences en développement web et mes expériences en tant qu'étudiant en BTS SIO SLAM.",
+  keywords: [
+    "CV",
+    "développeur web",
+    "BTS SIO",
+    "SLAM",
+    "React",
+    "TypeScript",
+    "Next.js",
+    "compétences techniques",
+    "expérience professionnelle",
+    "portfolio",
+  ],
+  authors: [{ name: "Adryan Cales" }],
+  openGraph: {
+    title: "Mon CV | Adryan Cales",
+    description: "Découvrez mon parcours professionnel et mes compétences en développement web",
+    type: "website",
+  },
+}
 
 export default function CVPage() {
   return (

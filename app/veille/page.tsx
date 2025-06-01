@@ -1,4 +1,20 @@
 import { VeilleCard } from "@/components/veille-card"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Document E5 | Portfolio BTS SIO SLAM",
+  description:
+    "Document E5 du BTS SIO SLAM présentant les situations professionnelles réalisées en entreprise et les compétences acquises.",
+  keywords: [
+    "BTS SIO",
+    "SLAM",
+    "document E5",
+    "portfolio",
+    "situations professionnelles",
+    "compétences",
+    "alternance",
+  ],
+}
 
 const VeillePosts = [
   {

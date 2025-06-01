@@ -1,4 +1,23 @@
 import { ProjectDetail, type ProjectDetailProps } from "@/components/project-detail"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Mes Projets",
+  description:
+    "Découvrez mes projets personnels et professionnels, notamment Txek App, une application mobile de comptage de points, et ses composants associés.",
+  keywords: [
+    "projets",
+    "portfolio",
+    "développement",
+    "Txek App",
+    "React Native",
+    "Next.js",
+    "SurrealDB",
+    "application mobile",
+    "API REST",
+    "interface d'administration",
+  ],
+}
 
 const projects: ProjectDetailProps[] = [
   {

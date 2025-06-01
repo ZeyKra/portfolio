@@ -1,5 +1,24 @@
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Mon Entreprise | Conseil départemental des Landes | Portfolio BTS SIO SLAM",
+  description:
+    "Découvrez mon expérience en alternance au sein du Conseil départemental des Landes, mes missions en tant qu'étudiant en BTS SIO SLAM et les compétences développées.",
+  keywords: [
+    "Conseil départemental des Landes",
+    "BTS SIO",
+    "SLAM",
+    "alternance",
+    "support informatique",
+    "maintenance",
+    "administration système",
+    "collectivité territoriale",
+    "expérience professionnelle",
+    "compétences techniques",
+  ],
+}
 
 export default function EnterprisePage() {
   return (
